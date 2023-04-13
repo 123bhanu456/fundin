@@ -1,11 +1,59 @@
-.email ,.pas{
+.outercontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.email{
  border-radius: 1rem;
 height: 2rem;
 width: 14rem;
+margin-bottom: 3rem;
+font-size: 1rem;
 margin-top: 2rem;
+}
+.pas{
+    border-radius: 1rem;
+height: 2rem;
+width: 13rem;
+margin-bottom:3rem;
+font-size: 1rem;
 }
 .contain{
     display:flex;
+    background-color: bisque;
     flex-direction: column;
     align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+    border-radius: 2rem;
+}
+.contain h1{
+    color: rgb(63, 54, 39)
+}
+.btn{
+    width: 7rem;
+    border-radius: 3rem;
+    height: 2rem;
+    margin-left: 28%;
+    font-size: 1.1rem;
+}
+.btndiv :hover{
+    background-color: aquamarine;
+}
+@media screen and (max-width :510px) {
+    .contain{
+        max-width: 10rem;
+    }
+    .pas,.email{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    .btn{
+        margin-top: 1.5rem;
+    }
+    
 }
